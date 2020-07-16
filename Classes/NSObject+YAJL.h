@@ -80,7 +80,7 @@
   - YAJLGenOptionsIgnoreUnknownTypes: Ignore unknown types (will use null value)
   - YAJLGenOptionsIncludeUnsupportedTypes: Handle non-JSON types (including NSDate, NSData, NSURL) 
  
- @param indentString
+ @param indentString indentString
  @result JSON String
  */
 - (NSString *)yajl_JSONStringWithOptions:(YAJLGenOptions)options indentString:(NSString *)indentString;

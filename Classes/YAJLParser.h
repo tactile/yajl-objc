@@ -155,7 +155,7 @@ typedef NS_ENUM(NSUInteger, YAJLParserStatus) {
  If streaming, you can call parse multiple times as long as 
  previous calls return YAJLParserStatusInsufficientData.
  
- @param data
+ @param data data
  @result Parser status
   - YAJLParserStatusNone: No status
   - YAJLParserStatusOK: Parsed OK 
